@@ -1,0 +1,245 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+p {
+  text-align: justify;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .imagen {
+  height: 60px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  border: 1px solid #333;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+header nav {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  border: 1px solid #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header nav .icons {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+header nav .navegacion {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav .navegacion button {
+  padding: 0 20px;
+}
+
+header nav .navegacion .buscar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+header nav .navegacion .buscar i {
+  position: absolute;
+  left: 8px;
+}
+
+header nav .navegacion .buscar input {
+  text-align: end;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  padding: 20px;
+  gap: 40px;
+  border: 1px solid #333;
+}
+
+main section .contenido {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+main section .contenido h5 {
+  text-decoration: underline;
+}
+
+main section .contenido span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main section .contenido .imagen {
+  height: 120px;
+  width: 500px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  border: 1px solid #333;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+
+main section .contenido .imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+main section .cuadrado {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main section .cuadrado .box {
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: orange;
+  text-align: center;
+  margin-top: 120px;
+}
+
+main section .cuadrado .box p span {
+  display: block;
+}
+
+main section .cuadrado .box h4 {
+  margin: 0;
+  background: greenyellow;
+  width: 100%;
+}
+
+main aside {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+main aside input {
+  border-radius: 5px;
+  padding: 0.5rem 1.3rem;
+}
+
+main aside .categorias li:nth-child(2) {
+  margin-left: 20px;
+}
+
+main aside .entradas ul {
+  padding: 0;
+}
+
+main aside .entradas ul li {
+  padding-left: 20px;
+  list-style: none;
+  border: 1px solid #333;
+}
+
+main aside .entradas ul li:nth-child(2) {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #333;
+  height: 100px;
+}
+
+footer .box img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=App.css.map */
